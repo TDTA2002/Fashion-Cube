@@ -1,0 +1,61 @@
+.col-sm-3 {
+    display: flex;
+    width: 100%;
+}
+
+.row i{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(230, 70, 70);
+
+}
+
+.row {
+
+    width: 1250px;
+    gap: 5px;
+   
+}
+
+
+.col-sm-3 {
+    flex-basis: 100%;
+    background-color: rgb(231, 229, 229);
+    gap: 16px;
+    padding: 10px;
+
+}
+
+
+
+.handrow {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+
+}
+
+.handrow .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+.handrow .row .col-xs-6,
+.handrow .row .col-sm-3 {
+    width: 100%;
+}
+
+
+.scrollable-list {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-in, transform 0.5s ease-in;
+}
+
+.scrollable-list.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+

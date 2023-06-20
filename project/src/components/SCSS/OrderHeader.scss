@@ -1,0 +1,26 @@
+.btn-header {
+    background-color: black;
+}
+
+.navbar-menulink {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 30px;
+
+    title {
+        color: #fff;
+    }
+}
+
+.navbar-icon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.fixed-navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}

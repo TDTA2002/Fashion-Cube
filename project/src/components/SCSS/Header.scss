@@ -1,0 +1,36 @@
+.custom-header {
+    background-color: #646464;
+    color: white;
+    z-index: 1000;
+    width: 100%;
+}
+
+.nav-dropdown #collapsible-nav-dropdown::before {
+    color: white;
+}
+
+.nav-dropdown .dropdown-menu {
+    color: white;
+}
+
+.navbar .nav-link.dropdown-toggle {
+    transition: background-color 0.3s ease;
+}
+
+.navbar .nav-link.dropdown-toggle:hover {
+    background-color: #afb3a9;
+}
+
+.dropdown-menu {
+    transition: opacity 0.3s ease;
+}
+
+.dropdown-menu.fade {
+    opacity: 0;
+    display: block;
+    transition: opacity 0.3s ease;
+}
+
+.dropdown:hover .dropdown-menu.fade {
+    opacity: 1;
+}
